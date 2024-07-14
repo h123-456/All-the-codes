@@ -3,8 +3,7 @@
 
 ###  1) Install
 ------------
-The <b>new version</b> will be updated and maintained in <b>[hewm2008/PopLDdecay](https://github.com/hewm2008/PopLDdecay)</b>, please click below website to download the latest version
-</br><p align="center"><b>[hewm2008/PopLDdecay](https://github.com/hewm2008/PopLDdecay)</b></p>
+(https://github.com/hewm2008/PopLDdecay)</b></p>
 
 <b> [Download](https://github.com/hewm2008/PopLDdecay/archive/v3.42.tar.gz) </b>
 
