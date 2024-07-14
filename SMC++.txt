@@ -1,0 +1,25 @@
+#!/bin/bash  
+
+chromosomes=(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26)  
+  
+for chromosome in "${chromosomes[@]}"
+ do  
+    smc++ vcf2smc 7S.vcf.gz data/Duo.${chromosome}.smc.gz ${chromosome} Duo:DUO_1,DUO_2,DUO_3,DUO_4,DUO_5,DUO_6,DUO_7,DUO_8	,DUO_9,DUO_10,DUO_11,DUO_12,DUO_13,DUO_14,DUO_15,DUO_16,DUO_17,DUO_18,DUO_19,DUO_20
+    smc++ vcf2smc 7S.vcf.gz data/KUN.${chromosome}.smc.gz ${chromosome} KUN:KUN_1,KUN_2,KUN_3,KUN_4,KUN_5,KUN_6,KUN_7,KUN_8,KUN_9,KUN_10,KUN_11,KUN_12,KUN_13,KUN_14,KUN_15,KUN_16,KUN_17,KUN_18,KUN_19,KUN_20   
+    smc++ vcf2smc 7S.vcf.gz data/QIR.${chromosome}.smc.gz ${chromosome} QIR:QIR_1,QIR_2,QIR_3,QIR_4,QIR_5,QIR_6,QIR_7,QIR_8,QIR_9,QIR_10,QIR_11,QIR_12,QIR_13,QIR_14,QIR_15,QIR_16,QIR_17,QIR_18,QIR_19,QIR_20  
+    smc++ vcf2smc 7S.vcf.gz data/HT.${chromosome}.smc.gz ${chromosome} HT:HET_1,HET_2,HET_3,HET_4,HET_5,HET_6,HET_7,HET_8,HET_9,HET_10,HET_11,HET_12,HET_13,HET_14,HET_15,HET_16,HET_17,HET_18,HET_19,HET_20  
+done   
+smc++ estimate -o Duo/1.25e-9 data/Duo.*.smc.gz --knots 10 --timepoints 1 10000
+smc++ estimate -o KUN/1.25e-9 data/KUN.*.smc.gz --knots 10  --timepoints 1 10000
+smc++ estimate -o QIR/1.25e-9 data/QIR.*.smc.gz --knots 10  --timepoints 1 10000
+smc++ estimate -o HT/1.25e-9 data/HT.*.smc.gz --knots 10  --timepoints 1 10000
+  
+smc++ plot Duo.pdf -c Duo/model.final.json -g 2 --ylim 0 200000
+smc++ plot KUN.pdf -c KUN/model.final.json -g 2 --ylim 0 200000
+smc++ plot QIR.pdf -c QIR/model.final.json -g 2 --ylim 0 200000  
+smc++ plot HT.pdf -c HT/model.final.json -g 2 --ylim 0 200000  
+
+smc++ split -o CHINA/ Duo/model.final.json KUN/model.final.json HT/model.final.json QIR/model.final.json data/*.smc.gz  
+
+smc++ plot joint_China.pdf split_CHINA/model.final.json  
+  
