@@ -1,0 +1,35 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file POL
+  --homozyg
+  --homozyg-gap 500
+  --homozyg-kb 1000
+  --homozyg-snp 50
+  --homozyg-window-het 1
+  --homozyg-window-missing 1
+  --homozyg-window-snp 30
+  --homozyg-window-threshold 0.05
+  --out POL1
+  --sheep
+
+Hostname: DESKTOP-MPSFMNE
+Working directory: C:\Users\DELL\Desktop\ROH\·Ö
+Start time: Thu Aug 31 11:39:38 2023
+
+Random number seed: 1693453178
+7976 MB RAM detected; reserving 3988 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (46896 variants, 108 sheep).
+--file: POL1-temporary.bed + POL1-temporary.bim + POL1-temporary.fam written.
+46896 variants loaded from .bim file.
+108 sheep (0 males, 0 females, 108 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to POL1.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 0 founders and 108 nonfounders present.
+Calculating allele frequencies... done.
+46896 variants and 108 sheep pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 2615 ROH.
+Results saved to POL1.hom + POL1.hom.indiv + POL1.hom.summary .
+
+End time: Thu Aug 31 11:39:38 2023

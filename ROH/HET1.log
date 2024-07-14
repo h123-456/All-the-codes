@@ -1,0 +1,35 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file HET
+  --homozyg
+  --homozyg-gap 500
+  --homozyg-kb 1000
+  --homozyg-snp 50
+  --homozyg-window-het 1
+  --homozyg-window-missing 1
+  --homozyg-window-snp 30
+  --homozyg-window-threshold 0.05
+  --out HET1
+  --sheep
+
+Hostname: DESKTOP-MPSFMNE
+Working directory: C:\Users\DELL\Desktop\ROH\·Ö
+Start time: Thu Aug 31 11:38:16 2023
+
+Random number seed: 1693453096
+7976 MB RAM detected; reserving 3988 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (46896 variants, 84 sheep).
+--file: HET1-temporary.bed + HET1-temporary.bim + HET1-temporary.fam written.
+46896 variants loaded from .bim file.
+84 sheep (0 males, 0 females, 84 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to HET1.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 0 founders and 84 nonfounders present.
+Calculating allele frequencies... done.
+46896 variants and 84 sheep pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 294 ROH.
+Results saved to HET1.hom + HET1.hom.indiv + HET1.hom.summary .
+
+End time: Thu Aug 31 11:38:16 2023

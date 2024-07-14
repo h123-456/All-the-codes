@@ -1,0 +1,35 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file KUN
+  --homozyg
+  --homozyg-gap 500
+  --homozyg-kb 1000
+  --homozyg-snp 50
+  --homozyg-window-het 1
+  --homozyg-window-missing 1
+  --homozyg-window-snp 30
+  --homozyg-window-threshold 0.05
+  --out KUN1
+  --sheep
+
+Hostname: DESKTOP-MPSFMNE
+Working directory: C:\Users\DELL\Desktop\ROH\·Ö
+Start time: Thu Aug 31 11:38:47 2023
+
+Random number seed: 1693453127
+7976 MB RAM detected; reserving 3988 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (46896 variants, 27 sheep).
+--file: KUN1-temporary.bed + KUN1-temporary.bim + KUN1-temporary.fam written.
+46896 variants loaded from .bim file.
+27 sheep (0 males, 0 females, 27 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to KUN1.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 0 founders and 27 nonfounders present.
+Calculating allele frequencies... done.
+46896 variants and 27 sheep pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 34 ROH.
+Results saved to KUN1.hom + KUN1.hom.indiv + KUN1.hom.summary .
+
+End time: Thu Aug 31 11:38:47 2023
