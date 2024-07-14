@@ -1,0 +1,1 @@
+Regarding the paper titled 'Single nucleotide polymorphism-based analysis of linkage disequilibrium and runs of homozygosity patterns of indigenous sheep in the southern Taklamakan desert', all the code utilized for the analysis is contained within this code repository.
