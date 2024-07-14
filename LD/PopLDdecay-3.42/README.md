@@ -1,10 +1,6 @@
 # PopLDdecay
 <b>[PopLDdecay: a fast and effective tool for linkage disequilibrium decay analysis based on variant call format files](https://doi.org/10.1093/bioinformatics/bty875)</b>
 
-The <i><b>[PopLDdecay article](https://doi.org/10.1093/bioinformatics/bty875)</b></i> has been published in <b> [Bioinformatics](https://doi.org/10.1093/bioinformatics/bty875) magazine</b>, please cited this article if possible
-
-PMID: [30321304](https://www.ncbi.nlm.nih.gov/pubmed/30321304)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            DOI:[10.1093/bioinformatics/bty875](https://doi.org/10.1093/bioinformatics/bty875)
-
 ###  1) Install
 ------------
 The <b>new version</b> will be updated and maintained in <b>[hewm2008/PopLDdecay](https://github.com/hewm2008/PopLDdecay)</b>, please click below website to download the latest version
@@ -90,16 +86,3 @@ Linkage disequilibrium (LD) decay[1] is the most important and most common analy
 
 ###  4) Results
 ------------
-some LD decay images which I draw in the paper before.
-
-* [50 Rices NBT](http://www.nature.com/nbt/journal/v30/n1/images/nbt.2050-F2.jpg)
-* [31 soybeans  NG]( http://www.nature.com/ng/journal/v42/n12/images/ng.715-F1.jpg)
-
-###  5) Discussing
-------------
-- [:email:](https://github.com/hewm2008/PopLDdecay) hewm2008@gmail.com / hewm2008@qq.com
-- join the<b><i> QQ Group : 125293663</b></i>
-- <i><b>[PopLDdecay article](https://doi.org/10.1093/bioinformatics/bty875)</b></i> has been published in <b> [Bioinformatics](https://doi.org/10.1093/bioinformatics/bty875) magazine</b>, please cited this article if possible
-- PMID: [30321304](https://www.ncbi.nlm.nih.gov/pubmed/30321304)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            DOI:[10.1093/bioinformatics/bty875](https://doi.org/10.1093/bioinformatics/bty875)
-
-######################swimming in the sky and flying in the sea #############################
